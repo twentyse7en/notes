@@ -22,7 +22,7 @@
   --light: 255, 255, 255;
   --dark: 52,84,138;
   --hljs-bg: #111;
-
+  --header-a: #33635c;
   --safe-bottom: 0;
 }
 
@@ -42,6 +42,7 @@
   --light: 26, 27, 38;
   --dark: 125,207,255;
   --hljs-bg: #282828;
+  --header-a: #73daca;
 }
 
 *,
@@ -187,6 +188,7 @@ img {
   display: flex;
   flex-shrink: 0;
   align-items: center;
+  color: var(--header-a);
 }
 
 .logo {
