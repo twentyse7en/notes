@@ -1,0 +1,25 @@
+baseURL = 'dive.vercel.com'
+languageCode = 'en-us'
+
+
+# ------------------------------
+theme = "paper"
+title = 'Dive'
+
+[params]
+  github = 'twentyse7en'
+# ------------------------------
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
