@@ -4,7 +4,7 @@ languageCode = 'en-us'
 
 # ------------------------------
 theme = "paper"
-title = 'Dive'
+title = 'Notes'
 
 [params]
   github = 'twentyse7en'
