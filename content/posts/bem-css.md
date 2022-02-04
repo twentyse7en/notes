@@ -17,7 +17,7 @@ BEM is methodology introduced at [yandex]() for building sites fast
 and supported for a long time. It helps to create extendable and
 reusable interface components.
 
-BEM stands for block-element-modifier
+BEM stands for `block--element__modifier`
 
 ## Block Element Modifier
 
