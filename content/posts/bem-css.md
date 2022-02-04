@@ -1,6 +1,6 @@
 +++
 author = "Abijith b"
-title =  "BEM for CSS naming"
+title =  "Better css classnames with BEM"
 date = 2022-02-04T21:36:59+05:30
 tags = [
     "css",
