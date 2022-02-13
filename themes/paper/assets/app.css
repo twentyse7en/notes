@@ -24,6 +24,13 @@
   --hljs-bg: #111;
   --header-a: #33635c;
   --safe-bottom: 0;
+
+  /** colorscheme based on airosyx */
+  --primary-color: #0a1b5c;
+  --text-blue: #4268ff;
+  --text-pink: #ff42b0;
+  --text-white: #fff;
+  --text-footer: #5c658a;
 }
 
 @supports (bottom: constant(safe-area-inset-bottom)) {
@@ -43,6 +50,15 @@
   --dark: 125,207,255;
   --hljs-bg: #282828;
   --header-a: #73daca;
+
+
+  /* colorscheme airosyx */
+  --primary-color: #0a1b5c;
+  --primary-color: hsla(0,0%,100%,0.88);
+  --text-blue: #364fb3;
+  --text-pink: #ff42b0;
+  --text-white: #fff;
+  --text-footer: #5c658a;
 }
 
 *,
@@ -123,7 +139,7 @@ p {
 
 strong,
 b {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 ul,

@@ -1,5 +1,6 @@
 baseURL = 'https://twentyse7en.vercel.app'
 languageCode = 'en-us'
+paginate = 5
 
 
 # ------------------------------
@@ -9,6 +10,11 @@ title = 'Notes'
 [params]
   github = 'twentyse7en'
 # ------------------------------
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [menu]
 

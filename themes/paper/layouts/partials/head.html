@@ -2,7 +2,6 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
   <!-- Title -->
   <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ site.Title }}</title>
 
@@ -54,7 +53,23 @@
     href="{{ .Permalink }}"
     title="{{ site.Title }}"
   />
+
   {{ end }}
+
+  <!-- custom header -->
+  <!-- checking animation -->
+  <link rel="stylesheet" href="{{ `luge.css` | absURL }}" />
+  <script
+    src="{{ `luge.js` | absURL }}"
+  ></script>
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://cdn.fontshare.com">
+  <link href="https://api.fontshare.com/css?f[]=satoshi@400,700,900&amp;display=swap" rel="stylesheet">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
   <!-- Misc -->
   {{ if or hugo.IsProduction (eq site.Params.env "production") }}
