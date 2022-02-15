@@ -182,14 +182,25 @@ body {
 }
 
 .main .post-single {
-  font-family: 'Merriweather', serif;
+  font-family:EB Garamond,serif;
+  letter-spacing: 0;
 }
 
 .post-content pre, .post-content .highlight {
   border-radius: 10px;
+  background-color: #24283b !important;
 }
 
 .post-content p {
-  font-size: 16px;
+  font-size: 2.5rem;
   line-height: 28px;
 }
+
+.post-content li {
+  font-size: 2.5rem;
+}
+
+.post-content h1, .post-content h2, .post-content h3, .post-title h1 {
+  font-family: 'Open sans', sans-serif;
+}
+
