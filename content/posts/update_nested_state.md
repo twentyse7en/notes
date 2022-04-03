@@ -1,5 +1,6 @@
 +++
-author = "Abijith b"
+author = "Abijith B"
+title = "Proper way to update nested state in React"
 date = 2022-03-12T17:46:37+05:30
 tags=[
     "react",
