@@ -25,12 +25,12 @@ reply on forums.
 
 <section data-lg-reveal="fade-to-top">
 <h2> What I'm doing Now </h2>
-<i> updated on: Feb 13, 2022</i>
+<i> updated on: May 22, 2022</i>
 <ul>
-	<li> watching anime <a href="https://great-teacher-onizuka-gto.fandom.com/wiki/Eikichi_Onizuka">GTO</a></li>
-	<li> reading <a href="https://www.goodreads.com/book/show/15753339-malayalathinte-suvarnakathakal"> Golden stories of malayalam</a></li>
-	<li> exploring <a href="https://github.com/getify/You-Dont-Know-JS">YDKJS</a></li>
-	<li> learning <a href="https://www.youtube.com/watch?v=oi6M5KBWydg&list=PLUkh9m2BorqlJsEfix7R9jtSXClFZhGvC"> valuation </a></li>
+	<li> Watching anime <a href="https://www.imdb.com/title/tt0388629/">One piece</a></li>
+	<li> Reading <a href="https://www.goodreads.com/book/show/10534.The_Art_of_War"> The art of war </a></li>
+	<li> Exploring <a href="https://github.com/getify/You-Dont-Know-JS">YDKJS</a></li>
+	<li> Learning <a href="https://www.youtube.com/watch?v=oi6M5KBWydg&list=PLUkh9m2BorqlJsEfix7R9jtSXClFZhGvC"> valuation </a></li>
 </ul>
 </section>
 <section data-lg-reveal="fade-to-top">
