@@ -50,20 +50,22 @@ Neither static methods nor static properties can be called on instances of the c
 
 here we check if the class is constructed before, yes: return the previous instance. No: create a new instance and assign this instance to `_instance`
 ```
-    constructor() {
-        if (Connection._instance) {
-            return Connection._instance;
-        }
-        this._instance = this;
-        this.client = new connectionCode({
-            apiKey: APIKEY
-        })
+constructor() {
+    if (Connection._instance) {
+        return Connection._instance;
     }
+    this._instance = this;
+    this.client = new connectionCode({
+        apiKey: APIKEY
+    })
+}
 ```
 
 Method to access the connection.
 ```
-Neither static methods nor static properties can be called on instances of the class. Instead, they're called on the class itself.
+getConnection() {
+    return this.client;
+}
 ```
 
 ## Exporting
