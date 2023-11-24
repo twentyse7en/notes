@@ -17,24 +17,26 @@
 {{ end }}
 
 <!-- Articles -->
-{{ $paginator := .Paginate $pages }} {{ range $index, $page := $paginator.Pages }}
+{{ range $index, $page := $pages }}
 <article class="post-entry" data-lg-reveal="fade-to-top">
-  <time> > {{ .Date | time.Format ":date_medium" }}</time>
-  <h2>{{ .Title }}</h2>
-  <a href="{{ .Permalink }}"></a>
+  <time>
+    <span>{{ .Date | time.Format ":date_medium" }}</span>
+    <span>  ·  </span>
+    <span>{{ .Content | countwords }} words</span>
+  </time>
+  <a class="article-entry" href="{{ .Permalink }}">
+    <h2>{{ .Title }}</h2>
+  </a>
+  <!-- Post Tags -->
+  {{ if .Params.tags }}
+  <div class="index-tags">
+    {{ range .Params.tags }}
+      {{ $href := print (absURL "tags/") (urlize .) }}
+        <a href="{{ $href }}">{{ . }}</a>
+    {{ end }}
+  </div>
+  {{ end }}
 </article>
 {{ end }}
-
-<!-- Main Nav -->
-{{ if gt $paginator.TotalPages 1 }}
-<nav class="main-nav" data-lg-reveal="fade-to-top">
-  {{ if $paginator.HasPrev }}
-  <a class="prev" href="{{ $paginator.Prev.URL }}">← {{ i18n "prev_page" }}</a>
-  {{ end }}<!---->
-  {{ if $paginator.HasNext }}
-  <a class="next" href="{{ $paginator.Next.URL }}">{{ i18n "next_page" }} →</a>
-  {{ end }}
-</nav>
-{{ end }}<!---->
 
 {{ end }}

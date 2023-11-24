@@ -367,9 +367,27 @@ img {
   color: var(--air);
 }
 
-.post-entry a {
+.post-entry .article-link {
   position: absolute;
   inset: 0;
+}
+
+.index-tags {
+  margin-top: 1rem;
+}
+
+.index-tags a {
+  color: var(--lit);
+  background: rgba(var(--dark), 0.05);
+  font-size: 12px;
+  padding: 3px 8px;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  padding-inline: 2rem;
+}
+
+.index-tags a + a {
+  margin-left: 0.5rem;
 }
 
 /* Post single
