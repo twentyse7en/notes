@@ -2,7 +2,7 @@
 title: "useContext 101"
 date: 2023-01-14T12:44:41+05:30
 tags: [
-    "js",
+    "javascript",
     "react",
     "hooks",
 ]

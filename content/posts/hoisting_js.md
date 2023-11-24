@@ -3,7 +3,7 @@ author = "Abijith b"
 title = "Hoisting"
 date = "2022-01-20"
 tags = [
-    "js",
+    "javascript",
     "hoisting",
 ]
 +++

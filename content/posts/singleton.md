@@ -2,7 +2,7 @@
 title: "Singleton Pattern"
 date: 2022-10-12T12:44:41+05:30
 tags: [
-    "js",
+    "javascript",
     "singleton",
 ]
 ---

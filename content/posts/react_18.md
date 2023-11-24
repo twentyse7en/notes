@@ -2,7 +2,7 @@
 title: "What's new in React 18"
 date: 2023-04-01T12:44:41+05:30
 tags: [
-    "js",
+    "javascript",
     "react",
     "upgrade"
 ]

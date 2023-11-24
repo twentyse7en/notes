@@ -2,7 +2,7 @@
 title: "Closure"
 date: 2022-01-22T12:44:41+05:30
 tags: [
-    "js",
+    "javascript",
     "closure",
 ]
 ---

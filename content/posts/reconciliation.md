@@ -2,7 +2,7 @@
 title: "Reconciliation"
 date: 2022-01-28T20:23:35+05:30
 tags: [
-    "js",
+    "javascript",
     "react",
     "frontend",
     "reconciliation",
