@@ -7,9 +7,6 @@ tags: [
     "app",
 ]
 ---
-
-# React Native: New Architecture
-
 Here we are trying to explore the issues with current react native architecture and what's exciting about new architecture.
 
 ## What is React Native?
