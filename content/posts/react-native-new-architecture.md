@@ -15,7 +15,7 @@ Here we are trying to explore the issues with current react native architecture 
 ## What is React Native?
 React native allows developers to create native apps. Native apps can be android, ios, tv, web. There tagline itself is "Learn once, write anywhere". How are they making this possible?
 
-<img width="600" src="https://raw.githubusercontent.com/twentyse7en/journal/refs/heads/mainhttps://raw.githubusercontent.com/twentyse7en/journal/refs/heads/main/content/images/what_is_rn.png" />
+<img width="600" src="https://raw.githubusercontent.com/twentyse7en/journal/refs/heads/main/content/images/what_is_rn.png" />
 
 - Developer can write business logic in javascript just like react.
 - For building UI, React Native provide building blocks like View
