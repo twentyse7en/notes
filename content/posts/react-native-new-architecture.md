@@ -15,7 +15,7 @@ Here we are trying to explore the issues with current react native architecture 
 ## What is React Native?
 React native allows developers to create native apps. Native apps can be android, ios, tv, web. There tagline itself is "Learn once, write anywhere". How are they making this possible?
 
-<img width="600" src="https://github.com/twentyse7en/journal/blob/main/content/images/what_is_rn.png?raw=true" />
+<img width="600" src="https://raw.githubusercontent.com/twentyse7en/journal/refs/heads/mainhttps://raw.githubusercontent.com/twentyse7en/journal/refs/heads/main/content/images/what_is_rn.png" />
 
 - Developer can write business logic in javascript just like react.
 - For building UI, React Native provide building blocks like View
@@ -27,7 +27,7 @@ With all this we can build each platform. You may need to adjust few things acco
 
 As Javascript and Native stuff are independent, with codepush (which is going to deprecated soon) or alternative solution, javascript only changes we can release OTA, no release is required through playstore or appstore. That's a cool part.
 
-<img width="600" src="/content/images/rn_files.png" />
+<img width="600" src="https://raw.githubusercontent.com/twentyse7en/journal/refs/heads/main/content/images/rn_files.png" />
 
 ## Issues with current Architecture
 
@@ -40,7 +40,7 @@ Let's go by an example:  Consider the user is clicking on a button.
 3. Based on the new changes, a new message is sent to Native side for updating the UI.
 4. Native thread receives the message and update the UI.
 
-<img width="600" src="/content/images/rn_bridge.png" />
+<img width="600" src="https://raw.githubusercontent.com/twentyse7en/journal/refs/heads/main/content/images/rn_bridge.png" />
 
 The interaction between two sides are via bridge through message transfer, which is asynchrounous. There will be lot of overhead for JSON serialiazation, deserialization. As you can see already, if there is lot of interaction app can lag. For example, when you are scrolling a long list of data you can often see white screen.
 
@@ -48,7 +48,7 @@ Bridge is *async*, changes passed might not immediately reflected. This means th
 
 For Example: While entering Amount add comma seperation.
 
-<img width="600" src="/content/images/ui_slow_update.png" />
+<img width="600" src="https://raw.githubusercontent.com/twentyse7en/journal/refs/heads/main/content/images/ui_slow_update.png" />
 
 Another example is positioning tooltip based on some layout calculation. `useLayoutEffect` is broken, there is no way currently to do this without user seeing intermediate view.
 
@@ -58,7 +58,7 @@ Another example is positioning tooltip based on some layout calculation. `useLay
 - All modules load at startup which increases time to interaction.
 
 ## New architecture
-<img width="600" src="/content/images/new_architecture.png" />
+<img width="600" src="https://raw.githubusercontent.com/twentyse7en/journal/refs/heads/main/content/images/new_architecture.png" />
 
 ### Javascript Interface
 > "JSI is an interface that allows JavaScript to hold a reference to a C++ object and vice-versa. With a memory reference, you can directly invoke methods without serialization costs." ~ React Docs
@@ -79,7 +79,7 @@ This is renderer responsible for translating react components into host platform
 ### Codegen
 There will be boilerplate code required to bind native modules with javascript, with codegen this will can be automatically generated.
 
-<img width="600" src="/content/images/rn_codegen.png" />
+<img width="600" src="https://raw.githubusercontent.com/twentyse7en/journal/refs/heads/main/content/images/rn_codegen.png" />
 
 ### History
 - This was announced in 2018
